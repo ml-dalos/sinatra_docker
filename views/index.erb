@@ -1,0 +1,9 @@
+<div class="row">
+  <form method="POST" action="/encode">
+    <div class="mb-3">
+      <textarea class="form-control" rows="3" name="encrypted_string" placeholder="Enter your string..."><%= encrypted_string %></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary" name="base64">Base64</button>
+    <button type="submit" class="btn btn-primary" name="md5">MD5</button>
+  </form>
+</div>
